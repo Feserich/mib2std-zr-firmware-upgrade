@@ -18,7 +18,11 @@ This can be done by soldering very thin wires to the holes or contact them with 
 ## Upgrade procedure
 1. Connect a SD card reader to the eMMC through-hole plating (soldering or probes).
 For me the connection was only stable with DATA0 connected and DATA1-3 unconnected (-> slow read & write)
-    - eMMC pinout:  
+    - Note: Not all SD card reader are supporting a single connected data line. 
+    I used a SD card reader from _Hama_ with a clear case and model number _00091092_.
+    - Soldering can be difficult, as there're big cooper planes pulling away the heat. 
+    Oxidation and solder resist should be removed in front. 
+    - eMMC pinout (connecting to both Vdd signals probably required):  
     ![alt text](./images/probe_points.jpg)
     - See [this image](https://www.electroniccircuitsdesign.com/sites/default/files/img/sd-card-pinout.png) for a SD card pinout
     - example of probes soldered to a USB SD card reader (alternative pinout)
